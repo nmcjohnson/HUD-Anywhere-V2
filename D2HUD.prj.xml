@@ -1,0 +1,1161 @@
+<TaskerData sr="" dvi="1" tv="5.0u7m">
+	<Profile sr="prof93" ve="2">
+		<cdate>1513167672585</cdate>
+		<clp>true</clp>
+		<edate>1515622051843</edate>
+		<id>93</id>
+		<mid0>89</mid0>
+		<nme>D2-HUD</nme>
+		<Event sr="con0" ve="2">
+			<code>1015828216</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>hud</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<commparamsvar>&lt;null&gt;</commparamsvar>
+					<commparamsvar-type>java.lang.String</commparamsvar-type>
+					<message>hud</message>
+					<message-type>java.lang.String</message-type>
+					<messagecaseinsensitive>false</messagecaseinsensitive>
+					<messagecaseinsensitive-type>java.lang.Boolean</messagecaseinsensitive-type>
+					<messageexact>false</messageexact>
+					<messageexact-type>java.lang.Boolean</messageexact-type>
+					<messageregex>false</messageregex>
+					<messageregex-type>java.lang.Boolean</messageregex-type>
+					<messagevar>&lt;null&gt;</messagevar>
+					<messagevar-type>java.lang.String</messagevar-type>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>messagevar tempvar commparamsvar message target plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>b3ea2ac4-c7e4-45f3-8850-491eb0ff8990</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentRemoteEvent</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<tempvar>&lt;null&gt;</tempvar>
+					<tempvar-type>java.lang.String</tempvar-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigConditionTaskerEvent</Str>
+		</Event>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1491253070763</cdate>
+		<name>D2HUD</name>
+		<pids>93</pids>
+		<tids>88,89,2,64,60,104</tids>
+		<tsort>Alpha</tsort>
+	</Project>
+	<Task sr="task104">
+		<cdate>1500324595173</cdate>
+		<edate>1515622033549</edate>
+		<id>104</id>
+		<nme>D2HUD-Pause</nme>
+		<pri>27</pri>
+		<Action sr="act0" ve="7">
+			<code>150587070</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Files>&lt;null&gt;</Files>
+					<Files-type>java.lang.String</Files-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: MoldySausage
+Message: hud=:=pause</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_message_recipient_name>&lt;null&gt;</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>APA91bFKjx_wO_rhBDpTbwTx7tNMFSZ3YtiUnzKsQMuwwdthJXjDvW3Sns3vMJMqY_2mz_XnhdnxAUmc7w9_sZ-6JwlqeyRuYPfXSCE43whifcK2ZmetQhsZhudTAkjRghcPTY2J02JN</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>hud=:=pause</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>message passwordSendmessage configregid configdevicetype configttl configchannel collapsekey config_message_recipient_name Files target RedirecttoPort plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>aa4e0a28-a8ca-4716-8fae-a4d48261adc6</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendMessage</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivitySendMessage</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1500324595173</cdate>
+		<edate>1515622188274</edate>
+		<id>2</id>
+		<nme>D2HUD-Off</nme>
+		<pri>27</pri>
+		<Action sr="act0" ve="7">
+			<code>1165325195</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<AlwaysRefreshPreset>false</AlwaysRefreshPreset>
+					<AlwaysRefreshPreset-type>java.lang.Boolean</AlwaysRefreshPreset-type>
+					<ScreenPreset>&lt;null&gt;</ScreenPreset>
+					<ScreenPreset-type>java.lang.String</ScreenPreset-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Display Mode: Close
+Source: file:///storage/emulated/0/AutoTools/HUD_anywhere.html
+Toast Duration: 5000
+Height: 400
+Gravity: Center
+Animation: Slide In From Top
+Show Duration: 500
+Hide Duration: 250</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputJavascriptInject":{},"loadAllLinksInternally":false,"overlayToastDuration":"5000","webScreenOverlay":{"overlayHidDuration":"250","overlayReturnToOriginalPosition":false,"overlayShowDuration":"500"},"webscreenColors":{},"webscreenCommands":{"continueOnError":false,"onlyLocalCommands":false,"waitForCommand":false,"webscreenCloseOnAutoAppsCommand":false},"webscreenDialog":{"dimBackground":false,"hideDialogShadow":false},"webscreenDialogMode":"6","webscreenHtmlInject":{"webscreenReturnHtmlInjection":false},"webscreenSource":"file:///storage/emulated/0/AutoTools/HUD_anywhere.html","webscreenWindow":{"dialogAnimation":"0","dialogGravity":"17","dialogHeight":"400","dialogUseFullHeight":false},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>9b2ce44d-a94f-4c85-a9fe-8de6db30fa24</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentWebScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigWebScreen</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>150587070</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Files>&lt;null&gt;</Files>
+					<Files-type>java.lang.String</Files-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: MoldySausage
+Message: hud=:=off</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_message_recipient_name>&lt;null&gt;</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>APA91bFKjx_wO_rhBDpTbwTx7tNMFSZ3YtiUnzKsQMuwwdthJXjDvW3Sns3vMJMqY_2mz_XnhdnxAUmc7w9_sZ-6JwlqeyRuYPfXSCE43whifcK2ZmetQhsZhudTAkjRghcPTY2J02JN</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>hud=:=off</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>message passwordSendmessage configregid configdevicetype configttl configchannel collapsekey config_message_recipient_name Files target RedirecttoPort plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>aa4e0a28-a8ca-4716-8fae-a4d48261adc6</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendMessage</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivitySendMessage</Str>
+			<Int sr="arg3" val="200"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">HudUnPrep</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task60">
+		<cdate>1511302147222</cdate>
+		<edate>1515789660195</edate>
+		<id>60</id>
+		<nme>HudPrep</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>113</code>
+			<label>Wifi tether to put devices on same network.</label>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>565385068</code>
+			<label>Query to see if D1 is connected.</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<AllFields>false</AllFields>
+					<AllFields-type>java.lang.Boolean</AllFields-type>
+					<BigImageNames>&lt;null&gt;</BigImageNames>
+					<BigImageNames-type>java.lang.String</BigImageNames-type>
+					<BigTextNames>&lt;null&gt;</BigTextNames>
+					<BigTextNames-type>java.lang.String</BigTextNames-type>
+					<HasReplyAction>false</HasReplyAction>
+					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
+					<ImageNames>&lt;null&gt;</ImageNames>
+					<ImageNames-type>java.lang.String</ImageNames-type>
+					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;android&lt;/_array_InterceptApps0&gt;&lt;/StringArray&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InterceptPersistent>2</InterceptPersistent>
+					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
+					<InternalActionsBig>&lt;null&gt;</InternalActionsBig>
+					<InternalActionsBig-type>java.lang.String</InternalActionsBig-type>
+					<InternalActionsSmall>&lt;null&gt;</InternalActionsSmall>
+					<InternalActionsSmall-type>java.lang.String</InternalActionsSmall-type>
+					<QueryAnyMatch>&lt;null&gt;</QueryAnyMatch>
+					<QueryAnyMatch-type>java.lang.String</QueryAnyMatch-type>
+					<QueryAppName>&lt;null&gt;</QueryAppName>
+					<QueryAppName-type>java.lang.String</QueryAppName-type>
+					<QueryAppPackage>&lt;null&gt;</QueryAppPackage>
+					<QueryAppPackage-type>java.lang.String</QueryAppPackage-type>
+					<QueryText>1 device connected</QueryText>
+					<QueryText-type>java.lang.String</QueryText-type>
+					<QueryTitle>Mobile Hotspot</QueryTitle>
+					<QueryTitle-type>java.lang.String</QueryTitle-type>
+					<SnoozedNotifications>false</SnoozedNotifications>
+					<SnoozedNotifications-type>java.lang.Boolean</SnoozedNotifications-type>
+					<TextNames>&lt;null&gt;</TextNames>
+					<TextNames-type>java.lang.String</TextNames-type>
+					<UseRegex>false</UseRegex>
+					<UseRegex-type>java.lang.Boolean</UseRegex-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Persistent Only
+Notification Apps: Android System
+Title: Mobile Hotspot
+Text: 1 device connected</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp()
+01. App name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage()
+Background Image
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon()
+04. Icon When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action()
+13. Button Action 1
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon()
+13. Button 1 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text()
+12. Button 1 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action()
+15. Button 2 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon()
+15. Button 2 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text()
+14. Button 2 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action()
+17. Button 3 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon()
+17. Button 3 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text()
+16. Button 3 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action()
+18. Button 4 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon()
+18. Button 4 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text()
+18. Button 4 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action()
+19. Button 5 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon()
+19. Button 5 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text()
+19. Button 5 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancolor()
+Color
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%andismissaction()
+23. Action On Dismiss Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%angroup()
+Group
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%anicon()
+04. Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%anid()
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%aninfotext()
+10. Info Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%ankey()
+Key
+A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anpackage()
+Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%anpeople()
+People
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anpicture()
+05. Picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anpriority()
+Priority
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%anprogress()
+Progress
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%anprogressindeterminate()
+Progress Indeterminate
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%anprogressmax()
+Progress Max
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%anreplyaction()
+20. Action Reply
+Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%anshowchronometer()
+Show Chronometer
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%ansortkey()
+Sort Key
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%anstatus()
+Cancelled Or Created
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%anstatusbaricon()
+07. Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anstatusbaricon()
+Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%ansubtext()
+08. SubText
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%ansummary()
+Is Summary
+Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%ansummarytext()
+09. Summary Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%antag()
+Tag
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%antext()
+03. Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%antextbig()
+03. Text When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%antextlines()
+11. Text Lines
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anticker()
+03. Ticker Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%antitle()
+02. Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%antitlebig()
+02. Title When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%antouchaction()
+22. Action On Touch Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%anwhen()
+Show When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%anwhentime()
+When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps InterceptPersistent QueryTitle QueryText plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>54903f09-e70c-4a2d-895d-a6432e4d766a</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotificationQuery</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotificationQuery</Str>
+			<Int sr="arg3" val="20"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<label>Return to top of D1 connection check loop</label>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Query to see if D1 is connected.</Str>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%antext()</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<label>Once D1 is connected.</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%antext()</lhs>
+					<op>2</op>
+					<rhs>1 device connected</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>39194917</code>
+			<label>Exchange/update AutoRemote info on wifi tether</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<BluetoothAvailable>1</BluetoothAvailable>
+					<BluetoothAvailable-type>java.lang.String</BluetoothAvailable-type>
+					<ManagingDeviceId>APA91bFKjx_wO_rhBDpTbwTx7tNMFSZ3YtiUnzKsQMuwwdthJXjDvW3Sns3vMJMqY_2mz_XnhdnxAUmc7w9_sZ-6JwlqeyRuYPfXSCE43whifcK2ZmetQhsZhudTAkjRghcPTY2J02JN</ManagingDeviceId>
+					<ManagingDeviceId-type>java.lang.String</ManagingDeviceId-type>
+					<RequestAllDevices>false</RequestAllDevices>
+					<RequestAllDevices-type>java.lang.Boolean</RequestAllDevices-type>
+					<RequestInfo>true</RequestInfo>
+					<RequestInfo-type>java.lang.Boolean</RequestInfo-type>
+					<SendMyInfo>true</SendMyInfo>
+					<SendMyInfo-type>java.lang.Boolean</SendMyInfo-type>
+					<WifiAvailable>1</WifiAvailable>
+					<WifiAvailable-type>java.lang.String</WifiAvailable-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Device: MoldySausage
+Send Info: true
+Get Info: true
+Bluetooth: Enable
+Wifi: Enable</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet ManagingDeviceId BluetoothAvailable WifiAvailable plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>f34b0613-17bf-4c95-9947-959386d58393</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentManageDevices</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityManageDevices</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>785392305</code>
+			<label>Activate AutoRemote wifi service</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<LedColor>&lt;null&gt;</LedColor>
+					<LedColor-type>java.lang.String</LedColor-type>
+					<LedOff>&lt;null&gt;</LedOff>
+					<LedOff-type>java.lang.String</LedOff-type>
+					<LedOn>&lt;null&gt;</LedOn>
+					<LedOn-type>java.lang.String</LedOn-type>
+					<NotificationIcon>&lt;null&gt;</NotificationIcon>
+					<NotificationIcon-type>java.lang.String</NotificationIcon-type>
+					<NotificationText>&lt;null&gt;</NotificationText>
+					<NotificationText-type>java.lang.String</NotificationText-type>
+					<NotificationTitle>&lt;null&gt;</NotificationTitle>
+					<NotificationTitle-type>java.lang.String</NotificationTitle-type>
+					<PersistentNotification>true</PersistentNotification>
+					<PersistentNotification-type>java.lang.Boolean</PersistentNotification-type>
+					<UseWakelock>true</UseWakelock>
+					<UseWakelock-type>java.lang.Boolean</UseWakelock-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>
+Starting Wifi Service
+Persistent Notification: true
+Keep Awake: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<continuous>true</continuous>
+					<continuous-type>java.lang.Boolean</continuous-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet NotificationTitle NotificationText NotificationIcon LedColor LedOn LedOff plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5ebb9116-2faa-46a0-8f21-858bb3c87341</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentWifiService</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigWifiService</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>1137141958</code>
+			<label>Activate AutoRemote BT service</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<LedColor>&lt;null&gt;</LedColor>
+					<LedColor-type>java.lang.String</LedColor-type>
+					<LedOff>&lt;null&gt;</LedOff>
+					<LedOff-type>java.lang.String</LedOff-type>
+					<LedOn>&lt;null&gt;</LedOn>
+					<LedOn-type>java.lang.String</LedOn-type>
+					<NotificationIcon>&lt;null&gt;</NotificationIcon>
+					<NotificationIcon-type>java.lang.String</NotificationIcon-type>
+					<NotificationText>&lt;null&gt;</NotificationText>
+					<NotificationText-type>java.lang.String</NotificationText-type>
+					<NotificationTitle>&lt;null&gt;</NotificationTitle>
+					<NotificationTitle-type>java.lang.String</NotificationTitle-type>
+					<PersistentNotification>true</PersistentNotification>
+					<PersistentNotification-type>java.lang.Boolean</PersistentNotification-type>
+					<UseWakelock>true</UseWakelock>
+					<UseWakelock-type>java.lang.Boolean</UseWakelock-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>
+Starting Bluetooth Service
+Persistent Notification: true
+Keep Awake: true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<continuous>true</continuous>
+					<continuous-type>java.lang.Boolean</continuous-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet NotificationTitle NotificationText NotificationIcon LedColor LedOn LedOff plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>76016675-755f-4917-a5f1-6da43e4ec14b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentBluetoothService</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigBluetoothService</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>173</code>
+			<label>Optional. Restricts network access to other apps in order to increase speed/responsiveness</label>
+			<Int sr="arg0" val="3"/>
+			<App sr="arg1">
+				<appClass>com.cunnj.activities.MainActivity,
+com.adobe.reader.AdobeReader,
+com.balda.airtask.ui.MainActivity,
+lysesoft.andftp.SplashActivity,
+com.google.android.gms.car.CarHomeActivity1,
+lysesoft.andsmb.SplashActivity,
+com.ansm.anwriter.MainActivity,
+com.anddoes.launcher.Launcher,
+com.aviary.android.feather.MainActivity,
+com.pages.Starter,
+lt.andro.broadcastlogger.MainActivity,
+com.google.android.apps.chrome.Main,
+com.nolanlawson.logcat.LogcatActivity,
+com.sec.android.app.camera.Camera,
+com.android.calendar.AllInOneActivity,
+com.android.calendar.AllInOneActivity,
+com.sec.android.app.popupcalculator.Calculator,
+com.smart.swkey.nonroot.main,
+com.vcast.mediamanager.gui.activities.SplashLogoActivity,
+com.viewer.comicscreen.ListActivity,
+com.android.contacts.activities.PeopleActivity,
+com.google.android.apps.docs.app.NewMainProxyActivity,
+com.domotz.app.MainActivity,
+com.SNAppMobile.how.to.draw3d.MainActivity,
+com.google.android.apps.docs.app.NewMainProxyActivity,
+com.samsung.android.email.ui.activity.MessageListXL,
+com.delphicoder.flud.MainActivity,
+com.overlook.android.fing.MainActivity,
+com.asus.filemanager.activity.FileManagerActivity,
+com.microsoft.office.apphost.LaunchActivity,
+com.handycloset.android.eraser.MainActivity,
+dk.tacit.android.foldersync.SplashActivity,
+com.foxsports.videogo.splash.SplashActivity,
+net.xnano.android.ftpserver.MainActivity,
+pl.lawiusz.funnyweather.b.MainActivity,
+com.sec.android.gallery3d.app.GalleryOpaqueActivity,
+com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity,
+com.ghostery.android.ghostery.BrowserActivity,
+com.hudway.offline.controllers.App.SplashActivity,
+com.samsung.helphub.HelpHubLauncherActivity,
+com.google.android.talk.SigningInActivity,
+mobi.net.grumpyweather.ConfigActivity,
+com.access_company.graffiti.GraffitiActivity,
+com.byteexperts.ImageEditor.activities.search.IESearchActivity,
+com.redlee90.imagekitchenforandroid.MainActivity,
+com.imdb.mobile.HomeActivity,
+info.maigo.lab.intentviewer.MainActivity,
+net.sanukin.OverrideUnityActivity,
+com.faultexception.reader.MainActivity,
+demigos.com.mobilism.UI.SplashActivity,
+com.att.ui.screen.ConversationSplitListScreen,
+com.verizon.mms.ui.activity.Provisioning,
+jp.co.sony.mesh.MainActivity,
+com.samsung.android.app.memo.Main,
+jp.susatthi.ManifestViewer.MainTabActivity,
+com.sec.android.app.music.common.activity.MusicMainActivity,
+com.sec.android.app.myfiles.common.MainActivity,
+com.vzw.hss.myverizon.ui.activities.LauncherActivity,
+idv.xunqun.navier.screen.Intro.SplashActivity,
+com.netflix.mediaclient.ui.launch.UIWebViewActivity,
+app.greyshirts.firewall.ui.ActivityPager,
+com.opera.Opera,
+ua.com.streamsoft.pingtools.MainActivity_,
+com.chrystianvieyra.physicstoolboxsuite.MainActivity,
+com.google.android.apps.photos.home.HomeActivity,
+schance.app.pbsjobs.ClustersActivity,
+com.mjh.packageinfo.MainActivity,
+com.elotro.pushheartbeat.Configuration,
+jquinn.qubism.android.GalleryActivity,
+com.urbandroid.reactor.activity.ScriptList,
+com.google.android.apps.paidtasks.LaunchActivity,
+com.meihillman.ringtonemaker.GuideActivity,
+com.mfoundry.mb.android.mb_126.Salem_five_126Activity,
+nz.co.mcom.tablet.login.SplashscreenActivity,
+screenmirroring.abdelm.com.screenmirroring.SplashScreenActivity1,
+com.google.android.apps.docs.app.NewMainProxyActivity,
+com.android.settings.Settings,
+com.android.settings.FallbackHome,
+net.sourceforge.servestream.activity.MainActivity,
+com.icecoldapps.serversultimate.viewStart1,
+nextprototypes.SerialTransfer.BluetoothChat,
+com.android.systemui.Somnambulator,
+com.sec.android.sidesync30.ui.SideSyncActivity,
+goldendolpin.simplertmpplayer.SplashScreen,
+ak.alizandro.smartaudiobookplayer.PlayerActivity,
+com.stellar_north.SpaceWeather.SplashActivity,
+com.spotify.music.MainActivity,
+com.arachnoid.sshelper.SSHelperActivity,
+de.giminisoft.sshftpdownupload.ui.MainActivity,
+com.samsung.android.videolist.list.activity.VideoList,
+ido.aviram.androidsendudp.mainactivity,
+com.geohot.towelroot.TowelRoot,
+com.sec.android.app.launcher.activities.LauncherActivity,
+com.unity3d.player.UnityPlayerNativeActivity,
+com.parthpanchamia.startintent.IntentListActivity,
+org.videolan.vlc.StartActivity,
+com.google.android.googlequicksearchbox.VoiceSearchActivity,
+com.microsoft.office.apphost.LaunchActivity,
+com.google.android.youtube.app.honeycomb.Shell$HomeActivity,
+net.zedge.android.Main,
+org.zooper.zwlib.Launcher</appClass>
+				<appPkg>com.cunnj.activities,
+com.adobe.reader,
+com.balda.airtask,
+lysesoft.andftp,
+com.google.android.gms,
+lysesoft.andsmb,
+com.ansm.anwriter,
+com.anddoes.launcher,
+com.aviary.android.feather,
+com.freevpnintouch,
+lt.andro.broadcastlogger,
+com.android.chrome,
+com.nolanlawson.logcat,
+com.sec.android.app.camera,
+com.google.android.calendar,
+com.samsung.android.calendar,
+com.sec.android.app.popupcalculator,
+com.smart.swkey.nonroot,
+com.vcast.mediamanager,
+com.viewer.comicscreen,
+com.samsung.android.contacts,
+com.google.android.apps.docs.editors.docs,
+com.domotz.app,
+com.SNAppMobile.how.to.draw3d,
+com.google.android.apps.docs,
+com.samsung.android.email.provider,
+com.delphicoder.flud,
+com.overlook.android.fing,
+com.asus.filemanager,
+com.microsoft.office.excel,
+com.handycloset.android.eraser,
+dk.tacit.android.foldersync.full,
+com.foxsports.videogo,
+net.xnano.android.ftpserver,
+pl.lawiusz.funnyweather.release,
+com.sec.android.gallery3d,
+com.google.android.inputmethod.latin,
+com.ghostery.android.ghostery,
+com.hudway.online,
+com.samsung.helphub,
+com.google.android.talk,
+mobi.net.grumpyweather,
+com.access_company.graffiti,
+com.pcvirt.ImageEditor,
+com.redlee90.imagekitchenforandroid,
+com.imdb.mobile,
+info.maigo.lab.intentviewer,
+com.versusevil.likeaboss,
+com.faultexception.reader,
+demigos.com.mobilism,
+com.att.android.tablet.attmessages,
+com.verizon.messaging.vzmsgs,
+jp.co.sony.mesh,
+com.samsung.android.app.memo,
+jp.susatthi.ManifestViewer,
+com.sec.android.app.music,
+com.sec.android.app.myfiles,
+com.vzw.hss.myverizontabletlte,
+idv.xunqun.navier,
+com.netflix.mediaclient,
+app.greyshirts.firewall,
+com.opera.browser.beta,
+ua.com.streamsoft.pingtools,
+com.chrystianvieyra.physicstoolboxsuite,
+com.google.android.apps.photos,
+schance.app.pbsjobs,
+com.mjh.packageinfo,
+com.elotro.pushheartbeat,
+jquinn.qubism.android,
+com.urbandroid.reactor,
+com.google.android.apps.paidtasks,
+com.meihillman.ringtonemaker,
+com.mfoundry.mb.android.mb_126,
+com.salemfive.tablet,
+screenmirroring.abdelm.com.screenmirroring,
+com.google.android.apps.docs.editors.sheets,
+com.android.settings,
+com.android.settings,
+net.sourceforge.servestream,
+com.icecoldapps.serversultimatepro,
+nextprototypes.SerialTransfer,
+com.android.systemui,
+com.sec.android.sidesync30,
+goldendolpin.simplertmpplayer,
+ak.alizandro.smartaudiobookplayer,
+com.stellar_north.SpaceWeather,
+com.spotify.music,
+com.arachnoid.sshelper,
+de.giminisoft.sshftpdownupload,
+com.samsung.android.videolist,
+com.aviramido.udpserver,
+com.geohot.towelroot,
+com.sec.android.app.launcher,
+com.noelgamesCompany.Startale_new,
+com.parthpanchamia.startintent,
+org.videolan.vlc,
+com.google.android.googlequicksearchbox,
+com.microsoft.office.word,
+com.google.android.youtube,
+net.zedge.android,
+org.zooper.zwpro</appPkg>
+				<label>Activities,
+Adobe Acrobat,
+AirTask,
+AndFTP,
+Android Auto,
+AndSMB,
+anWriter free,
+Apex Launcher,
+Aviary,
+Betternet,
+Broadcasts Monitor,
+Chrome,
+CatLog,
+Camera,
+Calendar,
+Calendar,
+Calculator,
+Button Savior (non root),
+Cloud,
+Comic
+Screen,
+Contacts,
+Docs,
+Domotz PRO,
+Draw 3D,
+Drive,
+Email,
+Flud,
+Fing,
+File Manager,
+Excel,
+Eraser,
+FolderSync,
+FSGO,
+FTP Server,
+Fu*** Weather,
+Gallery,
+Gboard,
+Ghostery,
+Hudway Go,
+Help,
+Hangouts,
+Grumpy Weather,
+Graffiti,
+Image Editor,
+Image Studio for Android,
+IMDb,
+Intent Viewer,
+Like a Boss,
+Lithium,
+Mobilism,
+Messages,
+Message+,
+MESH,
+Memo,
+ManifestViewer,
+Music,
+My Files,
+My Verizon,
+Navier HUD,
+Netflix,
+NoRoot Firewall,
+Opera beta,
+PingTools,
+Physics Toolbox Suite,
+Photos,
+PBS App,
+PackageInfo,
+PushHeartbeat,
+Qubism,
+Reactor,
+Rewards,
+Ringtone Maker,
+Salem Five,
+Salem Five,
+Screen Mirroring,
+Sheets,
+Settings
+Settings,
+Settings
+FallbackHome,
+ServeStream,
+Servers Ultimate Pro,
+Serial Transfer,
+Screen saver,
+SideSync,
+Simple RTMP Player,
+Smart AudioBook Player,
+Space Weather,
+Spotify,
+SSHelper,
+SSHFTPDownUploader,
+Video,
+UDP TCP Server Free,
+towelroot,
+TouchWiz home,
+Startale,
+Start Intent,
+VLC,
+Voice Search,
+Word,
+YouTube,
+Zedge,
+Zooper Widget Pro</label>
+			</App>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>150587070</code>
+			<label>AutoRemote message to D1 that D2 is ready</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<Files>&lt;null&gt;</Files>
+					<Files-type>java.lang.String</Files-type>
+					<collapsekey>&lt;null&gt;</collapsekey>
+					<collapsekey-type>java.lang.String</collapsekey-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Recipient: MoldySausage
+Message: hud=:=ready</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<config_message_recipient_name>&lt;null&gt;</config_message_recipient_name>
+					<config_message_recipient_name-type>java.lang.String</config_message_recipient_name-type>
+					<configchannel>&lt;null&gt;</configchannel>
+					<configchannel-type>java.lang.String</configchannel-type>
+					<configregid>APA91bFKjx_wO_rhBDpTbwTx7tNMFSZ3YtiUnzKsQMuwwdthJXjDvW3Sns3vMJMqY_2mz_XnhdnxAUmc7w9_sZ-6JwlqeyRuYPfXSCE43whifcK2ZmetQhsZhudTAkjRghcPTY2J02JN</configregid>
+					<configregid-type>java.lang.String</configregid-type>
+					<configttl>&lt;null&gt;</configttl>
+					<configttl-type>java.lang.String</configttl-type>
+					<message>hud=:=ready</message>
+					<message-type>java.lang.String</message-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>message passwordSendmessage configregid configdevicetype configttl configchannel collapsekey config_message_recipient_name Files target RedirecttoPort plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<passwordSendmessage>&lt;null&gt;</passwordSendmessage>
+					<passwordSendmessage-type>java.lang.String</passwordSendmessage-type>
+					<plugininstanceid>f177e10d-5ea5-44b4-be5b-899bc708d20b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentSendMessage</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+					<target>&lt;null&gt;</target>
+					<target-type>java.lang.String</target-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivitySendMessage</Str>
+			<Int sr="arg3" val="60"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
+	</Task>
+	<Task sr="task64">
+		<cdate>1511302147222</cdate>
+		<edate>1515607774128</edate>
+		<id>64</id>
+		<nme>HudUnPrep</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>113</code>
+			<label>Ends wifi tether</label>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>785392305</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<LedColor>&lt;null&gt;</LedColor>
+					<LedColor-type>java.lang.String</LedColor-type>
+					<LedOff>&lt;null&gt;</LedOff>
+					<LedOff-type>java.lang.String</LedOff-type>
+					<LedOn>&lt;null&gt;</LedOn>
+					<LedOn-type>java.lang.String</LedOn-type>
+					<NotificationIcon>&lt;null&gt;</NotificationIcon>
+					<NotificationIcon-type>java.lang.String</NotificationIcon-type>
+					<NotificationText>&lt;null&gt;</NotificationText>
+					<NotificationText-type>java.lang.String</NotificationText-type>
+					<NotificationTitle>&lt;null&gt;</NotificationTitle>
+					<NotificationTitle-type>java.lang.String</NotificationTitle-type>
+					<PersistentNotification>false</PersistentNotification>
+					<PersistentNotification-type>java.lang.Boolean</PersistentNotification-type>
+					<UseWakelock>false</UseWakelock>
+					<UseWakelock-type>java.lang.Boolean</UseWakelock-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>
+Stopping Wifi Service</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<continuous>false</continuous>
+					<continuous-type>java.lang.Boolean</continuous-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet NotificationTitle NotificationText NotificationIcon LedColor LedOn LedOff plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>5ebb9116-2faa-46a0-8f21-858bb3c87341</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentWifiService</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigWifiService</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>1137141958</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<LedColor>&lt;null&gt;</LedColor>
+					<LedColor-type>java.lang.String</LedColor-type>
+					<LedOff>&lt;null&gt;</LedOff>
+					<LedOff-type>java.lang.String</LedOff-type>
+					<LedOn>&lt;null&gt;</LedOn>
+					<LedOn-type>java.lang.String</LedOn-type>
+					<NotificationIcon>&lt;null&gt;</NotificationIcon>
+					<NotificationIcon-type>java.lang.String</NotificationIcon-type>
+					<NotificationText>&lt;null&gt;</NotificationText>
+					<NotificationText-type>java.lang.String</NotificationText-type>
+					<NotificationTitle>&lt;null&gt;</NotificationTitle>
+					<NotificationTitle-type>java.lang.String</NotificationTitle-type>
+					<PersistentNotification>false</PersistentNotification>
+					<PersistentNotification-type>java.lang.Boolean</PersistentNotification-type>
+					<UseWakelock>false</UseWakelock>
+					<UseWakelock-type>java.lang.Boolean</UseWakelock-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>
+Stopping Bluetooth Service</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<continuous>false</continuous>
+					<continuous-type>java.lang.Boolean</continuous-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>FieldsToGet NotificationTitle NotificationText NotificationIcon LedColor LedOn LedOff plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>76016675-755f-4917-a5f1-6da43e4ec14b</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoremote.IntentBluetoothService</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoremote</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoremote.activity.ActivityConfigBluetoothService</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>173</code>
+			<Int sr="arg0" val="0"/>
+			<App sr="arg1"/>
+		</Action>
+	</Task>
+	<Task sr="task88">
+		<cdate>1513083552392</cdate>
+		<edate>1515591352945</edate>
+		<id>88</id>
+		<nme>D2HUD</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1165325195</code>
+			<label>AutoTools web screen displaying reversed cast.</label>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<AlwaysRefreshPreset>false</AlwaysRefreshPreset>
+					<AlwaysRefreshPreset-type>java.lang.Boolean</AlwaysRefreshPreset-type>
+					<ScreenPreset>&lt;null&gt;</ScreenPreset>
+					<ScreenPreset-type>java.lang.String</ScreenPreset-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Display Mode: Normal
+Source: file:///storage/emulated/0/AutoTools/HUD_anywhere.html
+Toast Duration: 5000
+Height: 400
+Gravity: Center
+Animation: Slide In From Top
+Show Duration: 500
+Hide Duration: 250</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputJavascriptInject":{},"loadAllLinksInternally":false,"overlayToastDuration":"5000","webScreenOverlay":{"overlayHidDuration":"250","overlayReturnToOriginalPosition":false,"overlayShowDuration":"500"},"webscreenColors":{},"webscreenCommands":{"continueOnError":false,"onlyLocalCommands":false,"waitForCommand":false,"webscreenCloseOnAutoAppsCommand":false},"webscreenDialog":{"dimBackground":false,"hideDialogShadow":false},"webscreenDialogMode":"0","webscreenHtmlInject":{"webscreenReturnHtmlInjection":false},"webscreenSource":"file:///storage/emulated/0/AutoTools/HUD_anywhere.html","webscreenWindow":{"dialogAnimation":"0","dialogGravity":"17","dialogHeight":"400","dialogUseFullHeight":false},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>9b2ce44d-a94f-4c85-a9fe-8de6db30fa24</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentWebScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigWebScreen</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+	</Task>
+	<Task sr="task89">
+		<cdate>1513084524322</cdate>
+		<edate>1515622051843</edate>
+		<id>89</id>
+		<nme>D2HUD-Launch</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Message receiver from D1</label>
+			<Str sr="arg0" ve="3">%hud</Str>
+			<Str sr="arg1" ve="3">%arcomm</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%hud</lhs>
+					<op>2</op>
+					<rhs>commencer</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<label>Launch HUD</label>
+			<Str sr="arg0" ve="3">D2HUD</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%hud</lhs>
+					<op>2</op>
+					<rhs>pause</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<label>Stop HUD</label>
+			<Str sr="arg0" ve="3">D2HUD-Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%hud</lhs>
+					<op>2</op>
+					<rhs>fin</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>130</code>
+			<label>Stop HUD</label>
+			<Str sr="arg0" ve="3">D2HUD-Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
